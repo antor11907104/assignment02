@@ -1,0 +1,117 @@
+
+@media  only screen and (max-width:1312px) {
+    .container{
+        width:90%;
+    }
+    #top-banner{
+        grid-template-columns: 55% 45%r;
+        align-items: end;
+    }
+    
+}
+
+@media only screen and (max-width:1200px){
+
+    #top-banner{
+        grid-template-columns: 50% 50%;
+        
+    }
+    .banner-title{
+        font-size: 56px;
+    }
+    #main-body{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .post-nav{
+        background-color: #fff;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .nav-btn{
+        text-align: center;
+        border:1px solid #d9d9d9;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width:992px){
+    .banner-title{
+        font-size: 8vh;
+        line-height: 8vh;
+    }
+
+    .post-wrap{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 24px;
+    }
+    .post-btn{
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+
+    #top-banner{
+        grid-template-columns: 1fr;
+    }
+
+
+    .banner-title{
+        font-size: 43px;
+        margin-right: 0;
+        line-height: 50px;
+    }
+
+    .banner-body{
+        margin:20px;
+        text-align: center;
+    }
+    .banner-text {
+        font-size: 16px;
+        width: 330px;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        margin: 0 auto;
+    }
+    .banner-image{
+        margin-right: 0;
+        text-align: center;
+    }
+
+    main{
+        margin:30px;
+    }
+    .banner-image img{
+        width:50%;
+
+    }
+    .post-wrap{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        gap: 24px;
+    }
+    .post-nav{
+   
+        flex-direction: column; 
+    }
+    .nav-btn{
+        display: block;
+        text-align: center;
+    }
+    .post-btn{
+        display: none;
+    }
+    .foot-links{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
